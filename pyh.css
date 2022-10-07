@@ -136,7 +136,7 @@ main{
         align-items: center;
         justify-content: center;
         text-align: center;
-       flex-direction: row;
+        flex-direction: row;
         height: 90vh;
         background-image: linear-gradient(0deg,
         rgba(0,0,0,0.5),
@@ -146,3 +146,44 @@ main{
         background-size: cover;
         background-position: center center;
      }
+     .nosotros{
+        height: 75vh;
+        background-image:linear-gradient(0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)) 
+        ,url(./imagenes/fondo-nosotros.jpeg);
+        background-repeat: no-repeat;
+        position: relative;
+     }
+     .nosotros div{
+       font-family: sans-serif;
+        display: flex;
+        align-items: flex-start;
+        justify-items: center;
+        text-align: left;
+        flex-direction: column;
+        color: rgb(243, 249, 245);
+     }
+     #contacto .direccion{
+        color: #fff;
+     }
+     #contacto .telefono{
+        display: flex;
+        flex-direction: column;
+        
+     }
+     #contacto .telefono a{
+        color: #fff;
+        text-decoration: none;
+     }
+     #contacto .mail{
+        display: flex;
+        flex-direction: column;
+    }
+     
+     #contacto p{
+        color: #fff;
+     }
+     #contacto .mail a{
+        color: #fff;
+        text-decoration: none;
