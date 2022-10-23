@@ -187,3 +187,8 @@ main{
      #contacto .mail a{
         color: #fff;
         text-decoration: none;
+    
+     }
+     #contacto .direccion img{
+        color: #fff;
+     }
