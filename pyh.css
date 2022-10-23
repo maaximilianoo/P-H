@@ -105,6 +105,7 @@ header .logo{
         background-color: #022f16;
     }
     section{
+        padding-left: 2px, 5px;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -122,6 +123,7 @@ header .logo{
        
        
     }
+
     footer{
         display: flex;
         align-items: center;
