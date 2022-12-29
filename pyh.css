@@ -46,6 +46,8 @@ header .logo{
 #check {
     display: none;
 }
+
+
 @media (max-width: 768px) {
     /*header*/
     .mostrar-menu,
@@ -101,6 +103,20 @@ header .logo{
         color: white;
         background-color: #6cc091;
     }
+    .irATienda{
+        text-decoration: none;
+        font-size: 1.5em;
+        font-weight: bold;
+        padding: 10px 3px;
+        border-radius: 10px;
+        border: 1px solid rgba(0, 0, 0, 0.5);
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+        color: white;
+        background-color: #6cc091;
+    }
+    .irATienda:hover {
+        background-color: #022f16;
+    }
     button:hover {
         background-color: #022f16;
     }
@@ -133,23 +149,17 @@ header .logo{
         color: #fff;
 
     }
-main{
-    display: flex;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-        flex-direction: row;
-        height: 90vh;
-        background-image: linear-gradient(0deg,
-        rgba(0,0,0,0.5),
-        rgba(0,0,0,0.5)) 
-        ,url(./imagenes/fondoproductos.webp);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center center;
+
+    
+        
+       
+     
+     .carru{
+        height: 10vh;
      }
      .nosotros{
-        height: 75vh;
+        
+        height: 100vh;
         background-image:linear-gradient(0deg,
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)) 
@@ -194,3 +204,29 @@ main{
      #contacto .direccion img{
         color: #fff;
      }
+
+     .imgProductos{
+        width: 150px;
+        height: 150px;
+        object-fit: contain;
+        margin-top: 1rem;
+    }
+    
+    .card {
+        display: flex;
+        align-items: center;
+        margin: 0.5rem;
+         }
+    
+    .colorBoton{
+        color: #fff;
+        background-color: #6cc091;
+    }    
+    
+    .colorBoton:hover{
+        background-color: #022f16;
+        color: #fff;
+    }
+    
+
+     
